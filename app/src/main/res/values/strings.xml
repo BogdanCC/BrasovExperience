@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TestingApp</string>
+    <string name="brasov">Brasov\u0020</string>
+    <string name="experience">Experience</string>
+    <!-- Menu Strings -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="placesToVisit">Places to visit</string>
+    <string name="reside">Reside</string>
+    <string name="food">Food</string>
+    <string name="hallOfFame">Hall of Fame</string>
+    <string name="feedback">Feedback</string>
+    <!-- Tabs Titles -->
+    <string name="outdoor">Outdoors</string>
+    <string name="historic">Historic</string>
+    <string name="entertainment">Entertainment</string>
+    <!-- Places strings -->
+    <string name="learn_more">Learn more</string>
+    <string name="name_tampa">Mount Tâmpa</string>
+    <string name="desc_tampa">Tâmpa is a mountain, part of the Postăvarul Massif, located in the southern part of the Eastern Carpathians and almost entirely surrounded by the city of Braşov. </string>
+    <string name="name_zoo">Zoo</string>
+    <string name="desc_zoo">Longtime zoo on 25 acres offering visitors a unique lions\' den view, a reptile house &amp; a playground.</string>
+    <string name="name_park_aventura">Parc Aventura</string>
+    <string name="desc_park_aventura">Outdoor adventure park by a lake offering forest-lined ropes &amp; zipline courses for all levels.</string>
+    <string name="name_poiana">Poiana Brașov</string>
+    <string name="desc_poiana">Poiana Brașov is a neighborhood of Brasov and one of the most popular Romanian ski resort. It\'s an important tourist centre preferred by many tourists not only from Romania, but also from Italy,</string>
+    <string name="name_bran">Bran Castle</string>
+    <string name="desc_bran">Bran Castle, situated near Bran and in the immediate vicinity of Brașov, is a national monument and landmark in Romania. The fortress is situated on the border between Transylvania and Wallachia, on DN73.</string>
+    <string name="name_citadel">Brașovia Citadel</string>
+    <string name="desc_citadel">Brașovia Citadel was a fortification located on the top of Tâmpa mountain in Brașov, Romania. It was demolished until the beginning of 1455 from the order of Iancu de Hunedoara.</string>
+    <string name="name_biserica_neagra">Black Church</string>
+    <string name="desc_biserica_neagra">Black Church or Biserica Neagră is a church in Brașov, a city in south-eastern Transylvania, Romania</string>
+    <string name="name_turn_alb">White Tower</string>
+    <string name="desc_turn_alb">Built in the 15th century, this restored watchtower with a stone staircase houses a museum.</string>
+    <string name="name_reduta">Reduta Cultural Center</string>
+    <string name="desc_reduta">Cultural center in Brașov, Romania</string>
+    <string name="name_dramatic">„Sică Alexandrescu” Theatre</string>
+    <string name="desc_dramatic">Performing arts theater</string>
+    <string name="name_cinema">Cinema One</string>
+    <string name="desc_cinema">Movie theater in Coresi Shopping Resort, Brașov, Romania</string>
+    <string name="name_escape_room">Obscuria Room Escape</string>
+    <string name="desc_escape_room">Experience the most intense 60 minutes at the only high-tech escape room in Brasov!</string>
+    <!-- Card welcoming strings -->
+    <string name="welcome_outdoors_title">\nWelcome to Brasov!</string>
+    <string name="welcome_outdoors_desc">Below are 4 of our favourite <b><i>outdoor</i></b> places to visit.\n\nCheck them out!</string>
+    <string name="welcome_historic_title">\nHistoric places</string>
+    <string name="welcome_historic_desc">Below are 4 of our favourite <b><i>historic</i></b> places to visit.\n\nCheck them out!</string>
+    <string name="welcome_entertainment_title">\nEntertainment</string>
+    <string name="welcome_entertainment_desc">Below are 4 of our favourite <b><i>entertainment</i></b> places to visit.\n\nCheck them out!</string>
+
+    <!-- Food list item strings -->
+    <string name="text_placeholder">Placeholder</string>
+    <string name="food_location">Location</string>
+
+    <!-- Fame fragment strings -->
+    <string name="fame_title">Hall of Fame Gallery</string>
+    <string name="fame_subtitle_user">User\'s Edition</string>
+    <string name="fame_subtitle_devs">Dev\'s Edition</string>
+    <string name="fame_num_photos">8 photos</string>
+</resources>

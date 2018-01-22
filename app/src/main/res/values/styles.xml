@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/titleColor</item>
+    </style>
+    <style name="menuItemColor" parent="Theme.AppCompat">
+        <item name="android:actionMenuTextColor">@color/titleColor</item>
+        <item name="colorAccent">@color/titleColor</item>
+        <item name="android:textColorHint">@color/ratigBarEmpty</item>
+    </style>
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="android:numStars">5</item>
+        <item name="android:isIndicator">false</item>
+    </style>
+    <style name="welcomeIcons">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:tint">@color/titleColor</item>
+    </style>
+    <style name="RatingBarReside" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratigBarEmpty</item>
+        <item name="colorControlActivated">@color/ratigBarEmpty</item>
+    </style>
+
+    <!-- ImageView common style -->
+    <style name="imageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Reside list item -->
+    <style name="resideMainLinearLayouts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="resideBottomLinearLayouts">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">24dp</item>
+    </style>
+    <style name="resideBottomImageViews">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:tint">@color/titleColor</item>
+    </style>
+    <style name="resideBottomTextViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Food list item styles -->
+    <style name="text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/text_placeholder</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+    <style name="icon_image_style">
+        <item name="android:layout_width">@dimen/icon_image_size</item>
+        <item name="android:layout_height">@dimen/icon_image_size</item>
+        <item name="android:tint">@color/titleColor</item>
+    </style>
+    <style name="food_info_layout_style">
+        <item name="android:layout_width">@dimen/nullSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="food_info_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:layout_marginTop">@dimen/food_text_margin_top</item>
+    </style>
+
+    <!-- Fame fragment styles -->
+    <style name="vertical_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="fame_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="fame_info_icons_style">
+        <item name="android:layout_width">@dimen/fame_info_icons_size</item>
+        <item name="android:layout_height">@dimen/fame_info_icons_size</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:tint">@color/titleColor</item>
+    </style>
+    <style name="fame_num_photo_text">
+        <item name="android:layout_width">@dimen/nullSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/fame_num_photos</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+    <style name="fame_info_layouts_style">
+        <item name="android:layout_width">@dimen/nullSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+    <style name="fame_main_info_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/fame_info_margin_top</item>
+    </style>
+    <style name="fame_bottom_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/nullSize</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="fame_upper_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/nullSize</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="fame_card_container_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cardViewHeight</item>
+    </style>
+    <style name="fame_image_style">
+        <item name="android:layout_width">@dimen/fame_image_size</item>
+        <item name="android:layout_height">@dimen/fame_image_size</item>
+        <item name="android:layout_marginTop">@dimen/fame_image_margin_top</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+</resources>

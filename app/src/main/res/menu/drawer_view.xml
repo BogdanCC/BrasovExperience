@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+        <group android:checkableBehavior="single">
+        <item android:title="Brasov Experience">
+
+        <menu>
+            <group android:checkableBehavior="single" >
+            <item
+                android:id="@+id/places"
+                android:title="@string/placesToVisit"
+                android:icon="@mipmap/route"
+                />
+            <item
+                android:id="@+id/reside"
+                android:title="@string/reside"
+                android:icon="@mipmap/sleep"
+                />
+            <item
+                android:id="@+id/food"
+                android:title="@string/food"
+                android:icon="@mipmap/pizza"
+                />
+            </group>
+        </menu>
+
+        </item>
+            <item android:title="Better together">
+                    <menu>
+                            <group android:checkableBehavior="single">
+                                    <item
+                                        android:id="@+id/sub_1"
+                                        android:icon="@drawable/fame1"
+                                        android:title="@string/hallOfFame" />
+                                    <item
+                                        android:icon="@drawable/feedback"
+                                        android:title="@string/feedback"
+                                        android:id="@+id/sub_2"
+                                        />
+                            </group>
+                    </menu>
+            </item>
+    </group>
+</menu>

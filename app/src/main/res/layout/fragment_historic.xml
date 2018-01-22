@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.testingapp.HistoricFragment">
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview"
+        android:columnWidth="@dimen/gridColumnWidth"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/gridVerticalSpacing"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:animateLayoutChanges="true"
+        >
+    </GridView>
+
+</FrameLayout>

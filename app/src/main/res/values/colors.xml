@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#47c6cb</color>
+    <color name="colorPrimaryDark">#24b2b7</color>
+    <color name="colorAccent">#ffc831</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextBlue">#558ff2</color>
+    <color name="ratigBarEmpty">#F5F5F5</color>
+    <color name="colorIconsText">#FFFFFF</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="tabBackground">#FFFFFF</color>
+    <color name="videoBackground">#000</color>
+</resources>

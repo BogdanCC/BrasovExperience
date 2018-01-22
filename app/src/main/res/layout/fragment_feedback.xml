@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.testingapp.FeedbackFragment"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What do you think about the app?"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/titleColor"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We'd love to hear from you"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/titleColor"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        />
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your name here"
+        android:textColorHint="@color/ratigBarEmpty"
+        android:textColorHighlight="@color/titleColor"
+        android:backgroundTint="@color/ratigBarEmpty"
+        android:textColor="@color/titleColor"
+        />
+    <EditText
+        android:id="@+id/edit_text_message"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Your message here"
+        android:textColorHint="@color/ratigBarEmpty"
+        android:textColor="@color/titleColor"
+        android:layout_marginTop="24dp"
+        android:textColorHighlight="@color/titleColor"
+        android:backgroundTint="@color/ratigBarEmpty"
+
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="S"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/titleColor"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="32sp"
+        android:id="@+id/send_email"
+        />
+</LinearLayout>

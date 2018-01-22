@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardViewHeight"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/brasov"
+                android:scaleType="centerCrop"
+                android:id="@+id/hotel_image"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_a6_opacity_blue_purple"
+                android:id="@+id/gradient"
+                >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    style="@style/resideMainLinearLayouts"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hello world"
+                        android:textColor="@color/titleColor"
+                        android:textAlignment="center"
+                        android:id="@+id/hotel_title"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/roboto_black"
+                        android:textSize="24sp"
+                        />
+                    <RatingBar
+                        android:id="@+id/ratingBarSmall"
+                        style="?attr/ratingBarStyleSmall"
+                        android:theme="@style/RatingBarReside"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="4.5"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/resideMainLinearLayouts"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        style="@style/resideBottomLinearLayouts"
+                        android:id="@+id/hotel_location"
+                        >
+                        <ImageView
+                            style="@style/resideBottomImageViews"
+                            android:src="@drawable/address"
+                            />
+                        <TextView
+                            style="@style/resideBottomTextViews"
+                            android:text="See location"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/resideBottomLinearLayouts"
+                        android:gravity="end"
+                        android:id="@+id/hotel_website"
+                        >
+                        <ImageView
+                            style="@style/resideBottomImageViews"
+                            android:src="@drawable/openweb"
+
+                            />
+                        <TextView
+                            style="@style/resideBottomTextViews"
+
+                            android:text="Book Room"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

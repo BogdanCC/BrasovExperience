@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Null size for layout weight -->
+    <dimen name="nullSize">0dp</dimen>
+
+    <!-- Main page title dimens -->
+    <dimen name="titleSize">32sp</dimen>
+    <dimen name="titleMarginBottom">40dp</dimen>
+    <!-- Play button size -->
+    <dimen name="playButtonSize">62dp</dimen>
+    <!-- Routes img dimens -->
+    <dimen name="routesImageSize">78dp</dimen>
+    <dimen name="routesMarginBottom">24dp</dimen>
+
+    <!-- MainAppActivity dimensions -->
+    <!-- ViewPager bottom margin -->
+    <dimen name="viewPagerSpace">48dp</dimen>
+    <!-- GridView dimens -->
+    <dimen name="gridColumnWidth">280dp</dimen>
+    <dimen name="gridVerticalSpacing">10dp</dimen>
+    <!-- LinearLayout for CardView padding -->
+    <dimen name="cardViewPadding">16dp</dimen>
+    <!-- CardView dimens -->
+    <dimen name="cardViewHeight">280dp</dimen>
+    <dimen name="cardViewWidth">280dp</dimen>
+    <dimen name="cardViewRadius">4dp</dimen>
+    <dimen name="cardViewElevation">8dp</dimen>
+    <!-- CardView text padding -->
+    <dimen name="cardViewTextPadding">16dp</dimen>
+    <!-- CardView footer (LinearLayout) padding -->
+    <dimen name="cardViewFooterPadding">8dp</dimen>
+    <dimen name="cardViewFooterTextMargin">1dp</dimen>
+    <!-- Navigation header image height -->
+    <dimen name="navHeaderHeight">200dp</dimen>
+
+    <!-- food_list_item dimension -->
+    <dimen name="list_item_height">96dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="circle_image_size">64dp</dimen>
+    <dimen name="circle_image_border">2dp</dimen>
+    <dimen name="text_margin_left">16dp</dimen>
+    <dimen name="name_text_size">18sp</dimen>
+    <dimen name="type_text_size">14sp</dimen>
+    <dimen name="icon_image_size">32dp</dimen>
+    <dimen name="food_text_margin_top">8dp</dimen>
+
+    <!-- Fame fragment dimensions -->
+    <dimen name="fame_title_size">18sp</dimen>
+    <dimen name="fame_subtitle_size">16sp</dimen>
+    <dimen name="fame_title_marginTop">32dp</dimen>
+    <dimen name="fame_info_margin_top">16dp</dimen>
+    <dimen name="fame_info_icons_margins">16dp</dimen>
+    <dimen name="fame_info_icons_size">24dp</dimen>
+    <dimen name="fame_image_size">80dp</dimen>
+    <dimen name="fame_image_margin_top">80dp</dimen>
+    <dimen name="fame_card_margin_top">24dp</dimen>
+</resources>
