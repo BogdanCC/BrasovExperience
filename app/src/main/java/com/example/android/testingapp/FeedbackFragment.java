@@ -53,7 +53,7 @@ public class FeedbackFragment extends Fragment {
     public void sendMessage() {
 
         // Create subject and email text
-        subject = name.getText().toString() + "\'s feedback";
+        subject = name.getText().toString() + getString(R.string.user_feedback);
         emailText =message.getText().toString();
 
         // Create intent to send email

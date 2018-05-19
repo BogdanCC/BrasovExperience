@@ -57,4 +57,48 @@
     <string name="fame_subtitle_user">User\'s Edition</string>
     <string name="fame_subtitle_devs">Dev\'s Edition</string>
     <string name="fame_num_photos">8 photos</string>
+
+    <!-- Gallery strings -->
+    <string name="sent_user_1">Sent by : User 1</string>
+    <string name="sent_user_2">Sent by : User 2</string>
+    <string name="sent_user_3">Sent by : User 3</string>
+    <string name="sent_user_4">Sent by : User 4</string>
+    <string name="sent_user_5">Sent by : User 5</string>
+    <string name="sent_user_6">Sent by : User 6</string>
+    <string name="sent_user_7">Sent by : User 7</string>
+    <string name="sent_user_8">Sent by : User 8</string>
+    <string name="sent_dev_1">Sent by : dev 1</string>
+    <string name="sent_dev_2">Sent by : dev 2</string>
+    <string name="sent_dev_3">Sent by : dev 3</string>
+    <string name="sent_dev_4">Sent by : dev 4</string>
+    <string name="sent_dev_5">Sent by : dev 5</string>
+    <string name="sent_dev_6">Sent by : dev 6</string>
+    <string name="sent_dev_7">Sent by : dev 7</string>
+    <string name="sent_dev_8">Sent by : dev 8</string>
+
+    <!-- Feedback strings -->
+    <string name="user_feedback">\'s feedback</string>
+    <!-- Foods strings -->
+    <string name="hockey_pub">The Hockey Pub</string>
+    <string name="hockey_tags">Cosy, Casual, Groups</string>
+    <string name="four_roses">Four Roses</string>
+    <string name="four_roses_tags">Breakfast, Cosy, Casual</string>
+    <string name="bistro_larte">Bistro de l\'Arte</string>
+    <string name="bistro_tags">Late night food</string>
+    <string name="dei_frati">Dei Frati</string>
+    <string name="dei_frati_tags">Great cocktails</string>
+    <string name="prato">Prato</string>
+    <string name="prato_tags">Great cocktails</string>
+    <string name="keller_steak_house">Keller Steak House</string>
+    <string name="keller_steak_tags">Cosy, Good for kids</string>
+    <string name="vanilla_lounge">Vanilla The Lounge</string>
+    <string name="vanilla_tags">Happy hour food</string>
+    <string name="pizzeria_nonna">Pizzeria della Nonna</string>
+    <string name="pizzeria_nonna_tags">Cosy, Casual</string>
+
+    <!-- Hotel strings -->
+    <string name="toscana">Toscana</string>
+    <string name="kronwell">Kronwell</string>
+    <string name="belfort">Hotel Belfort</string>
+    <string name="bella_vista">Bella Vista</string>
 </resources>

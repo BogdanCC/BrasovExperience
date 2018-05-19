@@ -26,14 +26,14 @@ public class FameDevGalleryActivity extends AppCompatActivity {
 
         // Creating array list of Gallery objects
         ArrayList<Gallery> galleryInfo = new ArrayList<>();
-        galleryInfo.add(new Gallery("Sent by : Dev 1", R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
-        galleryInfo.add(new Gallery("Sent by : Dev 2", R.drawable.poiana, R.drawable.gradient_cc_opacity_pruple_red));
-        galleryInfo.add(new Gallery("Sent by : Dev 3", R.drawable.cetate, R.drawable.gradient_cc_opacity_red_yellow));
-        galleryInfo.add(new Gallery("Sent by : Dev 4", R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
-        galleryInfo.add(new Gallery("Sent by : Dev 5", R.drawable.poiana, R.drawable.gradient_cc_opacity_pruple_red));
-        galleryInfo.add(new Gallery("Sent by : Dev 6", R.drawable.cetate, R.drawable.gradient_cc_opacity_red_yellow));
-        galleryInfo.add(new Gallery("Sent by : Dev 7", R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
-        galleryInfo.add(new Gallery("Sent by : Dev 8", R.drawable.brasov, R.drawable.gradient_cc_opacity_pruple_red));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_1), R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_2), R.drawable.poiana, R.drawable.gradient_cc_opacity_pruple_red));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_3), R.drawable.cetate, R.drawable.gradient_cc_opacity_red_yellow));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_4), R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_5), R.drawable.poiana, R.drawable.gradient_cc_opacity_pruple_red));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_6), R.drawable.cetate, R.drawable.gradient_cc_opacity_red_yellow));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_7), R.drawable.bran, R.drawable.gradient_cc_opacity_blue_purple));
+        galleryInfo.add(new Gallery(getString(R.string.sent_dev_8), R.drawable.brasov, R.drawable.gradient_cc_opacity_pruple_red));
 
         // Find list view to set our custom adapter to it
         ListView listView = findViewById(R.id.dev_gallery_list);
