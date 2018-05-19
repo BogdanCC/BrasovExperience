@@ -42,13 +42,12 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Hello world"
                         android:textColor="@color/titleColor"
                         android:textAlignment="center"
                         android:id="@+id/hotel_title"
                         android:textAllCaps="true"
                         android:fontFamily="@font/roboto_black"
-                        android:textSize="24sp"
+                        android:textSize="@dimen/hotel_name_text_size"
                         />
                     <RatingBar
                         android:id="@+id/ratingBarSmall"

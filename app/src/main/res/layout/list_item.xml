@@ -49,9 +49,9 @@
                 />
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#FFFFFF"
-                android:layout_marginBottom="8dp"
+                android:layout_height="@dimen/divider_height"
+                android:background="@color/colorIconsText"
+                android:layout_marginBottom="@dimen/cardViewFooterPadding"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,8 +59,8 @@
                 android:orientation="horizontal"
                 android:visibility="gone"
                 android:id="@+id/welcoming_footer"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/cardViewTextPadding"
+                android:layout_marginTop="@dimen/cardViewFooterPadding"
                 android:gravity="end"
                 >
                 <ImageView
@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="@dimen/cardViewFooterPadding"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/cardViewFooterPadding"
                 android:id="@+id/ratingBarLayout">
                 <RatingBar
                 android:id="@+id/ratingBarSmall"
@@ -96,7 +96,7 @@
                     android:layout_marginBottom="@dimen/cardViewFooterTextMargin"
                     android:textColor="@color/titleColor"
                     android:fontFamily="@font/roboto_bold"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/type_text_size"
                     android:textAllCaps="true"
                     android:id="@+id/learn_more"
                     />
